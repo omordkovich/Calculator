@@ -11,6 +11,15 @@ public class Calculator {
         switch (input){
             case 1 -> System.out.println(a + b);
             case 2 -> System.out.println(a - b);
+            case 3-> {
+                int i = a * b;
+                System.out.println(i);
+            }
+
+            case 4-> {
+                int i = a / b;
+                System.out.println(i);
+            }
 
         }
     }
