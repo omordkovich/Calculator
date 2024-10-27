@@ -9,6 +9,15 @@ public class Calculator {
         int b = 5;
         int input = scanner.nextInt();
         switch (input){
+            case 3-> {
+                int i = a * b;
+                System.out.println(i);
+            }
+
+            case 4-> {
+                int i = a / b;
+                System.out.println(i);
+            }
 
         }
     }
