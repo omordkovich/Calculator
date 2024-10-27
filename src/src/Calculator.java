@@ -21,6 +21,8 @@ public class Calculator {
                 System.out.println(i);
             }
 
+            default -> System.out.println("Bay bay");
+
         }
     }
 }
