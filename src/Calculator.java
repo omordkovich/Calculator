@@ -9,6 +9,8 @@ public class Calculator {
         int b = 5;
         int input = scanner.nextInt();
         switch (input){
+            case 1 -> System.out.println(a + b);
+            case 2 -> System.out.println(a - b);
 
         }
     }
